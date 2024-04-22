@@ -13,7 +13,7 @@ body{
 #father{
     background-color: rgb(255, 218, 233);
 
-    width: 1970px;
+    /* width: 1970px; */
     height: 800px;
     margin-top: 40px;
     display: inline-flex;
