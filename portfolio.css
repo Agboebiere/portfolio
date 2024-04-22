@@ -7,23 +7,26 @@ body{
     margin-top: 20px;
 }
 #mother{
-    display: inline-flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
 }
 
 #father{
     background-color: rgb(255, 218, 233);
 
     /* width: 1970px; */
-    height: 800px;
+    height: 600px;
     margin-top: 40px;
     display: inline-flex;
 }
 .bae{
     box-sizing: content-box;
 
-    padding: 150px 10px 0 30px;
+    padding: 50px 10px 0 30px;
 
-    width: 985px;
+    width: 600px;
     height: 600px
     
 }
@@ -43,9 +46,9 @@ Button{
 }
 
 img{
-    width: 985px;
-    height: 750px;
-    margin-top: 20px;
+    width: 600px;
+    height: 600px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     margin-left: 50px;
     margin-right: 0;
@@ -55,9 +58,10 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
-    padding-left: 985px;
+    /* padding-left: 985px;
     padding-right: 20px;
-    padding-top: 20px;
+    padding-top: 20px; */
+    
     border-bottom: 1px whitesmoke solid
 }
 #Home:visited{
@@ -73,8 +77,8 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
-    padding-right: 20px;
-    padding-top: 20px;
+    /* padding-right: 20px;
+    padding-top: 20px; */
     border-bottom: 1px whitesmoke solid
 }
 #About:visited{
@@ -90,8 +94,8 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
-    padding-right: 20px;
-    padding-top: 20px;
+    /* padding-right: 20px;
+    padding-top: 20px; */
     border-bottom: 1px whitesmoke solid
 }
 #Service:visited{
@@ -107,8 +111,8 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
-    padding-right: 20px;
-    padding-top: 20px;
+    /* padding-right: 20px;
+    padding-top: 20px; */
     border-bottom: 1px whitesmoke solid
 }
 #Price:visited{
@@ -124,8 +128,8 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 20px;
+    /* padding-top: 20px;
+    padding-right: 20px; */
     border-bottom: 1px whitesmoke solid
 }
 #project:visited{
@@ -140,8 +144,8 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
-    padding-top: 20px;
-    padding-right: 20px;
+    /* padding-top: 20px;
+    padding-right: 20px; */
     border-bottom: 1px whitesmoke solid
 }
 #page:link{
@@ -156,8 +160,8 @@ img{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     text-decoration: none;
-    padding-right: 20px;
-    padding-top: 20px;
+    /* padding-right: 20px;
+    padding-top: 20px; */
     border-bottom: 1px whitesmoke solid
 }
 #Contact:visited{
@@ -166,4 +170,10 @@ img{
     text-decoration: none;
     border-bottom: 1px whitesmoke solid;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Home, #About, 
+#Service, #Price, 
+#project, #page, 
+#Contact{
+    margin-inline: 10px;
 }
