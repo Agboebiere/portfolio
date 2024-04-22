@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+#mother{
+    display: inline-flex;
+}
+
+#father{
+    background-color: rgb(255, 218, 233);
+
+    width: 1970px;
+    height: 800px;
+    margin-top: 40px;
+    display: inline-flex;
+}
+.bae{
+    box-sizing: content-box;
+
+    padding: 150px 10px 0 30px;
+
+    width: 985px;
+    height: 600px
+    
+}
+.babe{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+
+}
+Button{
+    background-color: black;
+    margin-top: 40px;
+    color: whitesmoke;
+    width: 200px;
+    height: 60px;
+}
+
+img{
+    width: 985px;
+    height: 750px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 0;
+}
+#Home:link{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    padding-left: 985px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-bottom: 1px whitesmoke solid
+}
+#Home:visited{
+    font-size: 20px;
+    color: rgb(181, 172, 9);
+    text-decoration: none;
+    border-bottom: 1px whitesmoke solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#About:link{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-bottom: 1px whitesmoke solid
+}
+#About:visited{
+    font-size: 20px;
+    color: rgb(181, 172, 9);
+    text-decoration: none;
+    border-bottom: 1px whitesmoke solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Service:link{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-bottom: 1px whitesmoke solid
+}
+#Service:visited{
+    font-size: 20px;
+    color: rgb(181, 172, 9);
+    text-decoration: none;
+    border-bottom: 1px whitesmoke solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Price{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-bottom: 1px whitesmoke solid
+}
+#Price:visited{
+    font-size: 20px;
+    color: rgb(181, 172, 9);
+    text-decoration: none;
+    border-bottom: 1px whitesmoke solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#project:link{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-bottom: 1px whitesmoke solid
+}
+#project:visited{
+    font-size: 20px;
+    color: rgb(181, 172, 9);
+    text-decoration: none;
+    border-bottom: 1px whitesmoke solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#page:link{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    padding-top: 20px;
+    padding-right: 20px;
+    border-bottom: 1px whitesmoke solid
+}
+#page:link{
+    font-size: 20px;
+    color: rgb(181, 172, 9);
+    text-decoration: none;
+    border-bottom: 1px whitesmoke solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#Contact:link{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-bottom: 1px whitesmoke solid
+}
+#Contact:visited{
+    font-size: 20px;
+    color: rgb(181, 172, 9);
+    text-decoration: none;
+    border-bottom: 1px whitesmoke solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
